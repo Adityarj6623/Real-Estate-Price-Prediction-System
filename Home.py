@@ -11,20 +11,14 @@ st.title("🏠 Real Estate Price Prediction System")
 st.write("""
 Welcome to the Real Estate Price Prediction System.
 
-This application helps users analyze real estate data and predict property prices
-using Machine Learning techniques.
+This application provides property price prediction, real estate analytics,
+and personalized property recommendations using Machine Learning.
 """)
 
-st.subheader("Features")
+st.subheader("Modules")
 
 st.markdown("""
-- 📊 Exploratory Data Analysis (EDA)
-- 📈 Interactive Data Visualizations
-- 🤖 Property Price Prediction
-- 📍 Location-Based Insights
+- 💰 Price Prediction
+- 📊 Analytics Dashboard
+- 🏡 Property Recommendation System
 """)
-
-st.info("👈 Use the sidebar to navigate between different sections of the application.")
-
-st.markdown("---")
-st.caption("Built with Streamlit and Machine Learning")
